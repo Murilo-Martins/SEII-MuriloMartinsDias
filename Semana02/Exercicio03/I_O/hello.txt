@@ -1,0 +1,4 @@
+Hello World!
+echo Hello World! > hello.txt
+Criar um arquivo com esses dados, se já houver um arquivo substitui os dados
+Hello word ao usar >> faz append no arquivo
