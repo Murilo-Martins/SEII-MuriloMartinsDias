@@ -1,0 +1,15 @@
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\bin\Debug\net9.0\SEII-MuriloMartinsDias.exe
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\bin\Debug\net9.0\SEII-MuriloMartinsDias.deps.json
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\bin\Debug\net9.0\SEII-MuriloMartinsDias.runtimeconfig.json
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\bin\Debug\net9.0\SEII-MuriloMartinsDias.dll
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\bin\Debug\net9.0\SEII-MuriloMartinsDias.pdb
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\SEII-MuriloMartinsDias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\SEII-MuriloMartinsDias.AssemblyInfoInputs.cache
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\SEII-MuriloMartinsDias.AssemblyInfo.cs
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\SEII-MuriloMartinsDias.csproj.CoreCompileInputs.cache
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\SEII-MuriloMartinsDias.sourcelink.json
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\SEII-MuriloMartinsDias.dll
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\refint\SEII-MuriloMartinsDias.dll
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\SEII-MuriloMartinsDias.pdb
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\SEII-MuriloMartinsDias.genruntimeconfig.cache
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana02\Exercicio04\ConsoleApp\obj\Debug\net9.0\ref\SEII-MuriloMartinsDias.dll
