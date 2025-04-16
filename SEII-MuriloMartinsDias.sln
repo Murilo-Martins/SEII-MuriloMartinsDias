@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Semana03", "Semana03", "{CC1C4F68-EE05-6554-6428-1244ADC8605A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Semana02", "Semana02", "{2789442B-8184-5A15-E626-D61427A372ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio03", "Semana03\Exercicio03\Exercicio03.csproj", "{7882BC31-9924-F2F7-C211-258BC189456A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio04", "Exercicio04", "{CF8705C2-8CCF-3EC2-40EF-AFF23C95C1ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEII-MuriloMartinsDias", "Semana02\Exercicio04\ConsoleApp\SEII-MuriloMartinsDias.csproj", "{6EF0AFBF-FA19-E2E5-FAE7-B65D88FFDCB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7882BC31-9924-F2F7-C211-258BC189456A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7882BC31-9924-F2F7-C211-258BC189456A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7882BC31-9924-F2F7-C211-258BC189456A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7882BC31-9924-F2F7-C211-258BC189456A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF0AFBF-FA19-E2E5-FAE7-B65D88FFDCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF0AFBF-FA19-E2E5-FAE7-B65D88FFDCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF0AFBF-FA19-E2E5-FAE7-B65D88FFDCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF0AFBF-FA19-E2E5-FAE7-B65D88FFDCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7882BC31-9924-F2F7-C211-258BC189456A} = {CC1C4F68-EE05-6554-6428-1244ADC8605A}
+		{CF8705C2-8CCF-3EC2-40EF-AFF23C95C1ED} = {2789442B-8184-5A15-E626-D61427A372ED}
+		{6EF0AFBF-FA19-E2E5-FAE7-B65D88FFDCB7} = {CF8705C2-8CCF-3EC2-40EF-AFF23C95C1ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40F9FB2C-2DC9-44A5-A788-1D033ED46BF7}
+	EndGlobalSection
+EndGlobal

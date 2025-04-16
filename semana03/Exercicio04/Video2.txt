@@ -1,0 +1,7 @@
+Big(o)
+Eficiencia de algoritmos ele passa pelas 3 principais e mais usadas do gráfico dando as seguintes dicas
+O(1) = Constante -> se não tem loops somente comparações, atribuições ou declarações. O CADILLAC DOS CÓDIGOS 
+O(N) = Linear -> Tem um loop sem aninhamentos com outors loops, quanto maior a base maior o tempo,
+aceitavel, O CIVIC DOS CODIGOS
+O(N^2) = Quadratico -> Loop aninhado, aqui já começa a ter desempenho ruim, o ideal é fugir mas acontece muito
+no inicio da vida de programador

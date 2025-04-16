@@ -1,0 +1,4 @@
+Ele basicamente fala sobre classes. 
+Explica o conceito, quais motivos usamos, fala muito sobre organização como uma beneficio grande.
+Faz algumas analogias e no fim um exemplo de classe pokemon que está na pasta ADT
+Ele não explica o conceito em si só faz analogias.
