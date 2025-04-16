@@ -1,0 +1,20 @@
+Mudança de Paradigma:
+A Programação Orientada a Objetos (POO) representa uma mudança de paradigma em relação à programação procedural tradicional. Em vez de organizar o código como uma sequência linear de instruções, a POO estrutura o software a partir de entidades chamadas objetos, que integram dados e comportamentos. Essa abordagem torna o desenvolvimento mais modular e alinhado à modelagem de sistemas do mundo real.
+
+Classes e Objetos:
+Uma classe pode ser entendida como um modelo ou estrutura que define os atributos (dados) e métodos (comportamentos) de um objeto. Já o objeto é uma instância concreta dessa classe, que possui estado próprio e pode executar ações definidas na classe. Essa analogia é similar à receita de um bolo (classe) e ao bolo pronto (objeto).
+
+Encapsulamento:
+Trata-se do princípio de restringir o acesso direto aos dados internos de um objeto. Através do encapsulamento, apenas os métodos públicos expostos pela classe são utilizados para interagir com o objeto, protegendo os detalhes internos da implementação e promovendo maior segurança e controle sobre o código.
+
+Abstração:
+A abstração permite representar entidades complexas de forma simplificada, expondo apenas os aspectos relevantes para a interação com o sistema. Assim como dirigimos um carro sem conhecer os detalhes técnicos do motor, na POO podemos usar objetos sem conhecer sua lógica interna.
+
+Herança:
+Herança é o mecanismo pelo qual uma classe pode derivar características (atributos e métodos) de outra classe, promovendo reuso de código e estabelecendo hierarquias. Essa relação entre classes é similar à herança genética entre pais e filhos, onde os "filhos" recebem características dos "pais".
+
+Polimorfismo:
+O polimorfismo permite que diferentes classes implementem métodos com o mesmo nome, mas comportamentos distintos. Isso possibilita que objetos diferentes respondam de formas específicas a uma mesma chamada de método, aumentando a flexibilidade e extensibilidade do código.
+
+POO como Suporte à Modelagem e Engenharia de Sistemas:
+A POO favorece a criação de sistemas complexos ao permitir a decomposição do problema em módulos menores, mais compreensíveis e independentes. Essa modularidade facilita a manutenção, o reaproveitamento e a escalabilidade do software. Para engenheiros mecatrônicos, a POO oferece uma forma intuitiva de representar componentes de sistemas físicos e digitais, aproximando o código da estrutura e funcionamento do mundo real.
