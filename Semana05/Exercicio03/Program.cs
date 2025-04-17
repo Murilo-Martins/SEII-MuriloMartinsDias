@@ -1,16 +1,23 @@
 ﻿using System;
 using System.Threading;
 using Exercicio03.Classes;
-class MainClass
+class Program
 {
     static void Main()
     {
-        //Video 1 -------------------
-        ThredsBasics video1 = new ThredsBasics();
-        video1.Executar();
+        //Rodando tudo nas classes
+        
+        ThreadsBasics do1ao6 = new ThreadsBasics();
+        do1ao6.Executar();
 
-        //Video 2 -------------------
+        ThreadsMedium somente7 = new ThreadsMedium();
+        somente7.Executar();
+        
+        MainClass do8ao = new MainClass();
+        do8ao.Executar();
 
+  
+        
     }
     
-}
+} 
