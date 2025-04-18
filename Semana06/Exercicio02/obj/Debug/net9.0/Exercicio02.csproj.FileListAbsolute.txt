@@ -1,0 +1,15 @@
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\Exercicio02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\Exercicio02.AssemblyInfoInputs.cache
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\Exercicio02.AssemblyInfo.cs
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\Exercicio02.csproj.CoreCompileInputs.cache
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\Exercicio02.sourcelink.json
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\bin\Debug\net9.0\Exercicio02.exe
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\bin\Debug\net9.0\Exercicio02.deps.json
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\bin\Debug\net9.0\Exercicio02.runtimeconfig.json
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\bin\Debug\net9.0\Exercicio02.dll
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\bin\Debug\net9.0\Exercicio02.pdb
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\Exercicio02.dll
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\refint\Exercicio02.dll
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\Exercicio02.pdb
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\Exercicio02.genruntimeconfig.cache
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio02\obj\Debug\net9.0\ref\Exercicio02.dll

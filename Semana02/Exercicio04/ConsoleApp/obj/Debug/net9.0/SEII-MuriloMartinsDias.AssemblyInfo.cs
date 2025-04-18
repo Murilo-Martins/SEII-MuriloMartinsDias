@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SEII-MuriloMartinsDias")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49023cd3f72d738aeefee116313f62e49608b2d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ca04f2dd8630014bc53f1959c2484d00efb3e5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SEII-MuriloMartinsDias")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SEII-MuriloMartinsDias")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
