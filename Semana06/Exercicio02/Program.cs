@@ -12,6 +12,7 @@ class Program
         SyncSocketClient.StartClient();
 
         Console.ReadLine();
+        AsyncSocketClient.StartClient();
         
     }
 }
