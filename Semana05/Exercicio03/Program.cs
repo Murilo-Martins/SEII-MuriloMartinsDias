@@ -13,8 +13,12 @@ class Program
         ThreadsMedium somente7 = new ThreadsMedium();
         somente7.Executar();
         
-        MainClass do8ao = new MainClass();
-        do8ao.Executar();
+        MainClass do8ao10 = new MainClass();
+        do8ao10.Executar();
+
+        //Nao consegui fazer funcionar essa
+        //Producer do11ao14 = new Producer();
+        //do11ao14.Executar();
 
   
         
