@@ -6,13 +6,6 @@ using System.Text;
 using System.Net;
 using System.Net.Sockets;
 
-
-
-
-using System.Net;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading;
 class Program
 {
     static byte[] Buffer {get; set;}
