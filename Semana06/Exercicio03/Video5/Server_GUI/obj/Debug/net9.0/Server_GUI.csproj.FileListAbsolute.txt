@@ -1,0 +1,15 @@
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\Server_GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\Server_GUI.AssemblyInfoInputs.cache
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\Server_GUI.AssemblyInfo.cs
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\Server_GUI.csproj.CoreCompileInputs.cache
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\Server_GUI.sourcelink.json
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\bin\Debug\net9.0\Server_GUI.exe
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\bin\Debug\net9.0\Server_GUI.deps.json
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\bin\Debug\net9.0\Server_GUI.runtimeconfig.json
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\bin\Debug\net9.0\Server_GUI.dll
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\bin\Debug\net9.0\Server_GUI.pdb
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\Server_GUI.dll
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\refint\Server_GUI.dll
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\Server_GUI.pdb
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\Server_GUI.genruntimeconfig.cache
+C:\Users\diasm\source\repos\SEII-MuriloMartinsDias\Semana06\Exercicio03\Video5\Server_GUI\obj\Debug\net9.0\ref\Server_GUI.dll
