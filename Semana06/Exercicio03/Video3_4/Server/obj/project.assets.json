@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diasm\\source\\repos\\SEII-MuriloMartinsDias\\Semana06\\Exercicio03\\Video3\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\diasm\\source\\repos\\SEII-MuriloMartinsDias\\Semana06\\Exercicio03\\Video3_4\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\diasm\\source\\repos\\SEII-MuriloMartinsDias\\Semana06\\Exercicio03\\Video3\\Server\\Server.csproj",
+      "projectPath": "C:\\Users\\diasm\\source\\repos\\SEII-MuriloMartinsDias\\Semana06\\Exercicio03\\Video3_4\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\diasm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diasm\\source\\repos\\SEII-MuriloMartinsDias\\Semana06\\Exercicio03\\Video3\\Server\\obj\\",
+      "outputPath": "C:\\Users\\diasm\\source\\repos\\SEII-MuriloMartinsDias\\Semana06\\Exercicio03\\Video3_4\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
