@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathGame.Maui.GamePage"
+             BackgroundImageSource="bg.jpg"
+             >
+    <VerticalStackLayout
+        Padding="100"
+        Spacing="25">
+        <VerticalStackLayout
+            x:Name="QuestionsArea"
+             Spacing="25">
+            
+            <Label 
+            x:Name="QuestionLabel"
+            TextColor="White"
+            FontSize="80"/>
+
+            <Entry
+            x:Name="AnswerEntry"
+            HorizontalOptions="Center"
+            BackgroundColor="DarkOliveGreen"
+            TextColor="White"
+            HorizontalTextAlignment="Center"
+            FontSize="50"
+            MinimumWidthRequest="100"
+                >
+            </Entry>
+
+            <Button 
+            x:Name="SubmitAnswerBtn"
+            Text="Answer"
+            Clicked="OnAnswerSubmitted"
+            FontSize="30"/>
+
+            <Label 
+            x:Name="AnswerLabel"
+            TextColor="White"
+            FontSize="50"/>
+        </VerticalStackLayout>
+
+        <Label 
+            x:Name="GameOverLabel"
+            TextColor="White"
+            FontSize="50"/>
+
+        <Button 
+            IsVisible="false"
+            x:Name="BackToMenuBtn"
+            Text="Back to Menu"
+            Clicked="OnBackToMenu"
+            FontSize="50"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

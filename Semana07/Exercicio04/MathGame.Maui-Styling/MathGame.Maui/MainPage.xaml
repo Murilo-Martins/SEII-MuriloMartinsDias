@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathGame.Maui.MainPage"
+             BackgroundImageSource="bg.jpg">
+
+    <ContentView>
+        <VerticalStackLayout
+            Spacing="25" 
+            Padding="50" 
+            >
+            <Image Source="Resources/Images/bg.jpg"
+                   Aspect="AspectFit" />
+            <Label
+                Text= "THIS IS YOUR MATHS GAME!"
+                FontSize="50"
+                TextColor="White"
+                HorizontalOptions="Center"/>
+            <Label
+                Text= "WHAT GAME WOULD YOU LIKE TO PLAY?"
+                FontSize="50"
+                TextColor="White"
+                HorizontalOptions="Center"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition Height= "200"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0"
+                        MinimumWidthRequest="100"
+                        Text="+"
+                        Clicked="OnGameChosen"
+                        FontSize="50"
+                        FontFamily="CaveatBrush"/>
+                <Button Grid.Column ="1"
+                        MinimumWidthRequest="100"
+                        Text="−"
+                        Clicked="OnGameChosen"
+                        FontSize="50"
+                        FontFamily="CaveatBrush"/>
+                <Button Grid.Column ="2"
+                        MinimumWidthRequest="100"
+                        Text="×"
+                        Clicked="OnGameChosen"
+                        FontSize="50"
+                        FontFamily="CaveatBrush"/>
+                <Button Grid.Column ="3"
+                        MinimumWidthRequest="100"
+                        Text="÷"
+                        Clicked="OnGameChosen"
+                        FontSize="50"
+                        FontFamily="CaveatBrush"/>
+                <Button Grid.Row ="1"
+                        Grid.ColumnSpan="4"
+                        BackgroundColor="DarkGreen"
+                        Text="VIEW PREVIOUS GAMES"
+                        Clicked="OnViewPreviousGamesChosen"
+                        MinimumWidthRequest="500"
+                        MaximumHeightRequest="70"
+                        FontSize="32"
+                        FontFamily="CaveatBrush"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ContentView>
+
+</ContentPage>

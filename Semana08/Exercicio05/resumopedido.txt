@@ -1,0 +1,31 @@
+Design Patterns são soluções prontas para problemas comuns no desenvolvimento de software. Eles ajudam a evitar reinventar a roda, tornando o código mais organizado, reutilizável e fácil de manter. Esses padrões estão fortemente ligados à Programação Orientada a Objetos (POO), usando conceitos como herança, encapsulamento e polimorfismo para estruturar melhor o código.  
+
+Eles são úteis tanto para refatoração (melhorar código existente sem mudar seu comportamento) quanto para construir sistemas do zero, ajudando a planejar melhor e evitar problemas futuros, tornando o software mais flexível e escalável.  
+
+Existem três grupos principais de Design Patterns:  
+
+Criacionais - Lidam com a criação de objetos de forma flexível. Exemplos: Singleton, Factory Method, Abstract Factory, Builder e Prototype.  
+
+Estruturais - Ajudam a organizar classes e objetos. Exemplos: Adapter e Decorator.  
+
+Comportamentais - Definem como os objetos interagem. Exemplo: Observer.  
+
+Alguns padrões importantes:  
+
+Singleton: Garante que uma classe tenha apenas uma instância.  
+
+Factory Method: Permite criar objetos sem expor sua implementação.  
+
+Abstract Factory: Cria famílias de objetos relacionados.  
+
+Builder: Facilita a criação de objetos complexos.  
+
+Prototype: Clona objetos em vez de criá-los do zero.  
+
+Adapter: Faz interfaces incompatíveis funcionarem juntas.  
+
+Decorator: Adiciona funcionalidades a objetos sem alterar seu código original.  
+
+Observer: Mantém objetos sincronizados quando algo muda.  
+
+Esses padrões são ferramentas essenciais para desenvolver software de qualidade, evitando problemas comuns e economizando tempo.

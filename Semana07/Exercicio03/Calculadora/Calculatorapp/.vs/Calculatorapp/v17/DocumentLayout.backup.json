@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diasm\\source\\repos\\SEII-MuriloMartinsDias\\Semana07\\Exercicio03\\Calculadora\\Calculatorapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12F8A610-BD11-4B97-8CA9-733CCCF4A00F}|MauiApp1\\MauiApp1.csproj|c:\\users\\diasm\\source\\repos\\seii-murilomartinsdias\\semana07\\exercicio03\\calculadora\\calculatorapp\\mauiapp1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12F8A610-BD11-4B97-8CA9-733CCCF4A00F}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\diasm\\source\\repos\\SEII-MuriloMartinsDias\\Semana07\\Exercicio03\\Calculadora\\Calculatorapp\\MauiApp1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\diasm\\source\\repos\\SEII-MuriloMartinsDias\\Semana07\\Exercicio03\\Calculadora\\Calculatorapp\\MauiApp1\\MainPage.xaml",
+              "RelativeToolTip": "MauiApp1\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T21:37:11.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

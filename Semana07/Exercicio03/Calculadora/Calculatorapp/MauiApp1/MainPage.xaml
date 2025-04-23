@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+    <ContentPage.Resources>
+        <Style x:Key="BaseCalculatorButtonStyle"
+           TargetType="Button">
+            <Setter Property="WidthRequest"
+                Value="80" />
+            <Setter Property="HeightRequest"
+                Value="80" />
+            <Setter Property="CornerRadius"
+                Value="40" />
+            <Setter Property="TextColor"
+                Value="{AppThemeBinding Light=Black, Dark=White}" />
+            <Setter Property="FontSize"
+                Value="32" />
+            <Setter Property="FontAttributes"
+                Value="Bold" />
+        </Style>
+    </ContentPage.Resources>
+    
+    
+    <Grid   RowDefinitions="200,*">
+        <Border Stroke="RoundRectangle 0 0 25 25"
+                Background="LightBlue">
+            <VerticalStackLayout>
+                <Entry Text="9 x 3"
+                       HorizontalTextAlignment="End"
+                       FontSize="75"/>
+                <Label Text="27"
+                       HorizontalTextAlignment="End"
+                       FontSize="50"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <Grid Grid.Rwo="1"
+              RowDefinitions="*,*,*,*"
+              ColumnDefinitionss="*,*,*,*">
+            <Button Grid.Row="0"
+                    Grid.Column="0"
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    CornerRadius="20"
+                    FontSize="32"
+                    FontAttributes="Bold"
+                    Text="Ac" />
+        </Grid>
+    </Grid>
+    
+</ContentPage>
