@@ -1,0 +1,5 @@
+C:\Users\joaoo\Downloads\UFU\LINUX\SEII-JoaoVictorDosSantosMachado\Semana09\Exercicio02\Projeto02\obj\Debug\net9.0\Projeto02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoo\Downloads\UFU\LINUX\SEII-JoaoVictorDosSantosMachado\Semana09\Exercicio02\Projeto02\obj\Debug\net9.0\Projeto02.AssemblyInfoInputs.cache
+C:\Users\joaoo\Downloads\UFU\LINUX\SEII-JoaoVictorDosSantosMachado\Semana09\Exercicio02\Projeto02\obj\Debug\net9.0\Projeto02.AssemblyInfo.cs
+C:\Users\joaoo\Downloads\UFU\LINUX\SEII-JoaoVictorDosSantosMachado\Semana09\Exercicio02\Projeto02\obj\Debug\net9.0\Projeto02.csproj.CoreCompileInputs.cache
+C:\Users\joaoo\Downloads\UFU\LINUX\SEII-JoaoVictorDosSantosMachado\Semana09\Exercicio02\Projeto02\obj\Debug\net9.0\Projeto02.sourcelink.json

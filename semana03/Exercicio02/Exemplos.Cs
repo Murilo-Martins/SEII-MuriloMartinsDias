@@ -24,6 +24,7 @@ for (int i = 0; i < list.Count; i++)
     list[i] = list[i].Substring(0,3);
     Console.WriteLine(list[i]);
 }
+//Só para subir pasta certa
 
 Dictionary<int, string> dictionary = new Dictionary<int, string>();
 dictionary[0] ="Monday";

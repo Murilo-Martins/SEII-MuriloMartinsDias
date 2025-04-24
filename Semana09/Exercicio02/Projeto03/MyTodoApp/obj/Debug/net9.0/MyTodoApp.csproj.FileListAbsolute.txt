@@ -1,0 +1,10 @@
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.csproj.AssemblyReference.cache
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.AssemblyInfoInputs.cache
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.AssemblyInfo.cs
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.csproj.CoreCompileInputs.cache
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.MvcApplicationPartsAssemblyInfo.cs
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.MvcApplicationPartsAssemblyInfo.cache
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.RazorAssemblyInfo.cache
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.RazorAssemblyInfo.cs
+/home/nathan/SEII-NathaBernardesCampos/Semana09/Exercicio02/Projeto03/MyTodoApp/obj/Debug/net9.0/MyTodoApp.sourcelink.json
