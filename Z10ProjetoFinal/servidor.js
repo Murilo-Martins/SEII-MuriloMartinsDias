@@ -1,37 +1,20 @@
-// Conectando ao servidor WebSocket (no C#)
-const socket = new WebSocket('ws://localhost:8080');  // Ajuste o IP/porta conforme necessário
+// servidor.js
 
-// Quando a conexão for estabelecida
-socket.onopen = function() {
-    console.log('Conectado ao servidor WebSocket');
-    // Enviar uma mensagem para o servidor assim que a conexão for estabelecida
-    socket.send('Olá, servidor!');
-};
+const WebSocket = require('ws');
 
-// Quando o servidor enviar uma mensagem
-socket.onmessage = function(event) {
-    console.log('Mensagem recebida do servidor:', event.data);
-};
+// Cria um servidor WebSocket na porta 3000
+const wss = new WebSocket.Server({ port: 3000 });
 
-// Caso ocorra um erro na conexão
-socket.onerror = function(error) {
-    console.error('Erro WebSocket:', error);
-};
+console.log('Servidor WebSocket rodando na porta 3000...');
 
-// Caso a conexão seja fechada
-socket.onclose = function() {
-    console.log('Conexão WebSocket fechada');
-};
+wss.on('connection', (ws) => {
+    console.log('Novo cliente conectado!');
 
-// Enviar comando para o servidor a partir de um input ou ação do usuário
-function enviarComando(comando) {
-    if (socket.readyState === WebSocket.OPEN) {
-        socket.send(comando);
-        console.log('Comando enviado:', comando);
-    } else {
-        console.error('WebSocket não está conectado.');
-    }
-}
+    ws.on('message', (message) => {
+        console.log('Mensagem recebida:', message.toString());
+    });
 
-// Exemplo de chamada de envio de comando
-enviarComando('Comando do cliente');
+    ws.on('close', () => {
+        console.log('Cliente desconectado.');
+    });
+});

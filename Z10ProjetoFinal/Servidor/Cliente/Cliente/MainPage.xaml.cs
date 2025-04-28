@@ -1,52 +1,87 @@
-﻿using Microsoft.Maui.Controls;
-using System;
-using System.Net.WebSockets;
+﻿using System;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
+using Microsoft.Maui.Controls;
 
-namespace WebSocketMauiApp
+namespace Cliente
 {
     public partial class MainPage : ContentPage
     {
-        private ClientWebSocket _webSocket;
+        static Socket sock;
 
         public MainPage()
         {
             InitializeComponent();
-            _webSocket = new ClientWebSocket();
         }
 
-        // Método para conectar ao WebSocket
-        private async void ConnectButton_Clicked(object sender, EventArgs e)
+        protected override void OnAppearing()
         {
-            Uri serverUri = new Uri("ws://localhost:3000");
-            await _webSocket.ConnectAsync(serverUri, CancellationToken.None);
-            Console.WriteLine("Conectado ao WebSocket.");
+            base.OnAppearing();
+            StartTcpClient();
         }
 
-        // Método para enviar mensagem
-        private async void SendButton_Clicked(object sender, EventArgs e)
+        // Método para conectar ao servidor TCP
+        private void StartTcpClient()
         {
-            if (_webSocket.State == WebSocketState.Open)
+            sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+            // Solicita o IP do servidor e a porta
+            string ip = "127.0.0.1"; // Defina o IP ou pegue de algum lugar (ex. configurado no site)
+            int port = 12345; // Defina a porta que o servidor vai escutar
+
+            try
             {
-                string message = "Olá, servidor!";
-                byte[] messageBytes = Encoding.UTF8.GetBytes(message);
-                await _webSocket.SendAsync(new ArraySegment<byte>(messageBytes), WebSocketMessageType.Text, true, CancellationToken.None);
-                Console.WriteLine("Mensagem enviada: " + message);
+                // Conectando-se ao servidor
+                sock.Connect(new IPEndPoint(IPAddress.Parse(ip), port));
+                Console.WriteLine("Conectado ao servidor!");
+
+                // Thread para receber mensagens do servidor
+                new Thread(() =>
+                {
+                    try
+                    {
+                        while (true)
+                        {
+                            byte[] buffer = new byte[2048];
+                            int rec = sock.Receive(buffer, 0, buffer.Length, SocketFlags.None);
+                            if (rec <= 0)
+                                throw new SocketException();
+
+                            Array.Resize(ref buffer, rec);
+                            string msg = Encoding.Default.GetString(buffer);
+                            Console.WriteLine($"Mensagem do servidor: {msg}");
+
+                            // Atualize o conteúdo da interface com a mensagem recebida
+                            MainThread.BeginInvokeOnMainThread(() =>
+                            {
+                                // Aqui você pode atualizar a interface com a nova mensagem
+                                messageLabel.Text = msg; // Exemplo de label para mostrar a mensagem
+                            });
+                        }
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Desconectado do servidor!");
+                        sock.Close();
+                    }
+                }).Start();
+
+                // Loop para enviar mensagens ao servidor
+                while (true)
+                {
+                    string textToSend = Console.ReadLine();
+                    if (!string.IsNullOrEmpty(textToSend))
+                    {
+                        byte[] data = Encoding.Default.GetBytes(textToSend);
+                        sock.Send(data, 0, data.Length, SocketFlags.None);
+                    }
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Não conectado ao WebSocket.");
-            }
-        }
-
-        // Método para fechar a conexão
-        private async void CloseButton_Clicked(object sender, EventArgs e)
-        {
-            if (_webSocket.State == WebSocketState.Open)
-            {
-                await _webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Fechando a conexão", CancellationToken.None);
-                Console.WriteLine("Conexão fechada.");
+                Console.WriteLine($"Erro de conexão: {ex.Message}");
             }
         }
     }

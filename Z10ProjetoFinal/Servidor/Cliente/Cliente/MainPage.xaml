@@ -1,27 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             x:Class="WebSocketMauiApp.MainPage"
-             BackgroundColor="{DynamicResource PageBackgroundColor}">
+             x:Class="Cliente.MainPage">
 
-    <StackLayout Padding="30">
-        <!-- Botão para Conectar ao WebSocket -->
-        <Button x:Name="ConnectButton" 
-                Text="Conectar" 
-              
-                Clicked="ConnectButton_Clicked"/>
+    <StackLayout Padding="20">
+        <Label x:Name="messageLabel" 
+               Text="Esperando por mensagem..." 
+               FontSize="20" />
 
-        <!-- Botão para Enviar Mensagem ao WebSocket -->
-        <Button x:Name="SendMessageButton" 
-                Text="Enviar Mensagem" 
-                
-                Clicked="SendButton_Clicked"/>
-
-        <!-- Botão para Fechar Conexão WebSocket -->
-        <Button x:Name="CloseButton" 
-                Text="Fechar Conexão" 
-             
-                Clicked="CloseButton_Clicked"/>
+       
     </StackLayout>
-
 </ContentPage>
