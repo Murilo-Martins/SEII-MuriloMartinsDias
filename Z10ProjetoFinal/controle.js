@@ -1,21 +1,43 @@
-// controle.js
+document.addEventListener('DOMContentLoaded', function() {
+    const btnUp = document.getElementById('btn-up');
+    const btnLeft = document.getElementById('btn-left');
+    const btnDown = document.getElementById('btn-down');
+    const btnRight = document.getElementById('btn-right');
 
-// Conectando ao WebSocket (ajuste o IP/porta conforme necessário)
-const socket = new WebSocket('ws://192.168.0.100:3000'); // <-- Troque para o IP do seu servidor/app MAUI!
+    // Função para enviar o comando para o backend
+    const sendCommand = (command) => {
+        const url = 'https://blue-river-0f0c3731e.6.azurestaticapps.net/'; // Substitua pela URL do seu backend
 
-socket.onopen = function () {
-    console.log('Conectado ao servidor WebSocket');
-};
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ comando: command })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Resposta do servidor TCP:', data.resposta);
+        })
+        .catch(error => {
+            console.error('Erro ao enviar comando:', error);
+        });
+    };
 
-socket.onerror = function (error) {
-    console.error('Erro WebSocket:', error);
-};
+    // Adiciona evento de clique para cada botão de controle
+    btnUp.addEventListener('click', function() {
+        sendCommand('move_up');
+    });
 
-function enviar(comando) {
-    if (socket.readyState === WebSocket.OPEN) {
-        socket.send(comando);
-        console.log('Comando enviado:', comando);
-    } else {
-        console.error('WebSocket não está conectado.');
-    }
-}
+    btnLeft.addEventListener('click', function() {
+        sendCommand('move_left');
+    });
+
+    btnDown.addEventListener('click', function() {
+        sendCommand('move_down');
+    });
+
+    btnRight.addEventListener('click', function() {
+        sendCommand('move_right');
+    });
+});
