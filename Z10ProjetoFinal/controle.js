@@ -1,43 +1,54 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const btnUp = document.getElementById('btn-up');
-    const btnLeft = document.getElementById('btn-left');
-    const btnDown = document.getElementById('btn-down');
-    const btnRight = document.getElementById('btn-right');
+const net = require('net');
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
 
-    // Função para enviar o comando para o backend
-    const sendCommand = (command) => {
-        const url = 'https://blue-river-0f0c3731e.6.azurestaticapps.net/'; // Substitua pela URL do seu backend
+// Configuração do servidor TCP
+const tcpHost = 'https://blue-river-0f0c3731e.6.azurestaticapps.net/'; // Exemplo: '127.0.0.1' ou IP do servidor remoto
+const tcpPort = 12345; // Porta do servidor TCP
 
-        fetch(url, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ comando: command })
-        })
-        .then(response => response.json())
-        .then(data => {
-            console.log('Resposta do servidor TCP:', data.resposta);
-        })
-        .catch(error => {
-            console.error('Erro ao enviar comando:', error);
-        });
-    };
+// Função para enviar comandos via TCP
+const sendTcpCommand = (command, callback) => {
+  const client = new net.Socket();
+  
+  // Conecta ao servidor TCP
+  client.connect(tcpPort, tcpHost, () => {
+    console.log('Conectado ao servidor TCP');
+    client.write(command);  // Envia o comando para o servidor TCP
+  });
 
-    // Adiciona evento de clique para cada botão de controle
-    btnUp.addEventListener('click', function() {
-        sendCommand('move_up');
-    });
+  // Recebe a resposta do servidor TCP
+  client.on('data', (data) => {
+    console.log('Resposta do servidor TCP: ' + data);
+    callback(data.toString()); // Retorna a resposta ao cliente HTTP
+    client.destroy(); // Fecha a conexão após receber a resposta
+  });
 
-    btnLeft.addEventListener('click', function() {
-        sendCommand('move_left');
-    });
+  // Caso haja erro na conexão
+  client.on('error', (err) => {
+    console.log('Erro TCP: ' + err.message);
+    callback('Erro na conexão com o servidor TCP');
+  });
+};
 
-    btnDown.addEventListener('click', function() {
-        sendCommand('move_down');
-    });
+// Configuração do middleware para permitir requisições POST com JSON
+app.use(express.json());
 
-    btnRight.addEventListener('click', function() {
-        sendCommand('move_right');
-    });
+// Endpoint HTTP para receber comandos do cliente (site)
+app.post('/enviar-comando', (req, res) => {
+  const { comando } = req.body;
+
+  if (!comando) {
+    return res.status(400).send('Comando não fornecido');
+  }
+
+  // Envia o comando via TCP e responde ao cliente
+  sendTcpCommand(comando, (response) => {
+    res.send({ resposta: response });
+  });
+});
+
+// Inicia o servidor HTTP
+app.listen(port, () => {
+  console.log(`Servidor HTTP rodando na porta ${port}`);
 });
