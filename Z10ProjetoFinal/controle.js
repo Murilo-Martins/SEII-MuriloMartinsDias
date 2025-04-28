@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Configuração do servidor TCP
-const tcpHost = 'https://blue-river-0f0c3731e.6.azurestaticapps.net/'; // Exemplo: '127.0.0.1' ou IP do servidor remoto
+const tcpHost = '127.0.0.1/'; // Exemplo: '127.0.0.1' ou IP do servidor remoto
 const tcpPort = 12345; // Porta do servidor TCP
 
 // Função para enviar comandos via TCP
